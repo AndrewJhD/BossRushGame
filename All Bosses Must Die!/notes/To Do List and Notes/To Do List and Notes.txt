@@ -1,0 +1,35 @@
+Settings section seperate from main menu to allow it to called mid game
+
+1. Add powers to power pool and more guns to gun pool
+2. add boss movement / shooting objects 
+3. add mega boss every 4 mini bosses
+4. create boss pool for random gen
+5. create mega boss pool for random gen
+6. variations of after fight text based on number of bosses and hp left
+7. Transitions
+
+
+menus things to do:
+1. instructions text 
+2. settings buttons / text
+3. credit text
+
+*future features:
+sizeable windows / scaling
+window changes for positioning
+points / time taken to beat boss for after level
+
+*possible future changes:
+replace countdown with a button to let the player pause
+add in a spacer phase in between reward and fight to give points earns / total points, show time taken, and ect.
+
+
+? - not implemented but could
+1. Menu
+-Popup *stops main menu buttons while a popup menu is open
+2. Boss Intro?
+3. Fight
+4. Score?
+5. Reward
+6. CountDown/Transition?
+Back to 2/3 and repeat
