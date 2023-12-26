@@ -1,7 +1,6 @@
 Settings section seperate from main menu to allow it to called mid game
-
-1. Add powers to power pool and more guns to gun pool
-2. add boss movement / shooting objects 
+1. player invulernability frames
+2. create first boss theme / shooting shooting phases / creating boss shooters for phases or ploting them out atleast
 3. add mega boss every 4 mini bosses
 4. create boss pool for random gen
 5. create mega boss pool for random gen
@@ -15,6 +14,8 @@ menus things to do:
 3. credit text
 
 *future features:
+changing rewards menu to require hovering mouse over each option for extra details
+first boss being tutorial unless game has been started already
 sizeable windows / scaling
 window changes for positioning
 points / time taken to beat boss for after level
@@ -22,6 +23,8 @@ points / time taken to beat boss for after level
 *possible future changes:
 replace countdown with a button to let the player pause
 add in a spacer phase in between reward and fight to give points earns / total points, show time taken, and ect.
+
+
 
 
 ? - not implemented but could

@@ -4,6 +4,13 @@ if (global.GamePhase == "Menu"){
 	if (mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id)){
 			show_debug_message("Started Game");
 			//global.GamePhase = "Transition"; // might turn into a transition to give player time to start
+			global.BossesBeaten = 0;
+			global.CountDown = 5;
+			global.OfferedWeapon = "";
+			global.CurrentWeapon = "Starter";
+			global.PauseMenu = false;
+			global.CurrentBoss = 0;
+			global.GamePhase = "Fight";
 			room_goto_next();
 	}
 }

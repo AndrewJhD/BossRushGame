@@ -1,0 +1,6 @@
+
+*possibly try to make a boss parent class to add in base behavior but also to make the children detectable by spawner
+
+
+Shredder - large Sawblade projectiles with a lunge forward attach
+

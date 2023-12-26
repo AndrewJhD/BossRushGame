@@ -6,6 +6,7 @@ Boss_Hp = 10;
 
 global.Boss_Health = 10;
 
-createdFirstBoss = false;
 
-var this = instance_create_layer(RES_W/2,RES_H * 0.10,"Boss", Boss);
+var this = instance_create_layer(RES_W/2,RES_H * 0.10,"Boss", TutBoss);
+
+global.BossAttack = -1; //set to -1 because attacks will be from 0 - 5 (aka -1 is no attacks)
