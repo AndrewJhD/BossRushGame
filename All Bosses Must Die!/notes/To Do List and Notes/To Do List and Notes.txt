@@ -1,5 +1,11 @@
-Settings section seperate from main menu to allow it to called mid game
-1. player invulernability frames
+
+Stuff to fix:
+moving pause menu checker into game system stuff in fight room
+change boss selection to after boss defeat so intro can be selected and loaded immediately after reward is picked
+
+
+Plans for the future
+1. player invulernability frames / player dash
 2. create first boss theme / shooting shooting phases / creating boss shooters for phases or ploting them out atleast
 3. add mega boss every 4 mini bosses
 4. create boss pool for random gen
@@ -26,7 +32,7 @@ add in a spacer phase in between reward and fight to give points earns / total p
 
 
 
-
+Game Phases:
 ? - not implemented but could
 1. Menu
 -Popup *stops main menu buttons while a popup menu is open
@@ -34,5 +40,13 @@ add in a spacer phase in between reward and fight to give points earns / total p
 3. Fight
 4. Score?
 5. Reward
-6. CountDown/Transition?
-Back to 2/3 and repeat
+Back to 2
+
+Theme Ideas:
+Olympian myth based
+spooky dungeon
+medival kingdom
+evil villian based
+just random monsters
+
+

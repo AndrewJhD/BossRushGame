@@ -7,6 +7,6 @@ if(global.GamePhase != "Reward"){
 if (mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id)){
 	global.CurrentWeapon = weapon;
 	//show_debug_message(weapon);
-	global.GamePhase = "CountDown";
+	global.GamePhase = "Boss Intro";
 	instance_destroy();
 }

@@ -3,20 +3,20 @@
 PlayerChoice = "";
 PowerUp = "";
 
-	randomChoice = irandom_range(1,4);
-		//show_debug_message(randomChoice);
+	randomChoice = irandom(3);
+		//show_debug_message("powerup: " + string(randomChoice));
 		switch (randomChoice)
 	{
-	    case 1:
+	    case 0:
 	        PowerUp = "Speed Up";
 	    break;
-	    case 2:
+	    case 1:
 	        PowerUp = "Firerate Up";
 			break
-		case 3:
+		case 2:
 			PowerUp = "Damage Up";
 			break;
-		case 4:
+		case 3:
 			PowerUp = "Bullet Speed Up";
 			break;
 	}

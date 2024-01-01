@@ -4,24 +4,24 @@ weapon = "";
 uniqueWeapon = false;
 
 while(uniqueWeapon == false){
-	randomChoice = irandom_range(1,5);
-		//show_debug_message(randomChoice);
+	randomChoice = irandom(4);
+		//show_debug_message("weappon: " + string(randomChoice));
 		switch (randomChoice)
 	{
-	    case 1:
+	    case 0:
 	        weapon = "Smg";
-	    break;
-
-	    case 2:
+			break;
+	
+	    case 1:
 	        weapon = "Sniper";
-			break
-		case 3:
+			break;
+		case 2:
 			weapon = "Rifle";
 			break;
-		case 4:
+		case 3:
 			weapon = "Minigun"
 			break;
-		case 5:
+		case 4:
 			weapon = "Rock";
 			break;
 	}

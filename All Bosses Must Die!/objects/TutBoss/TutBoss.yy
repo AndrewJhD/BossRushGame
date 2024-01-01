@@ -9,10 +9,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Boss",
-    "path": "folders/Objects/Boss.yy",
+    "name": "MiniBosses",
+    "path": "folders/Objects/Bosses/MiniBosses.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "BossCollision",
+    "path": "objects/BossCollision/BossCollision.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

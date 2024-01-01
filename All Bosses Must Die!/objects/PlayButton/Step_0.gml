@@ -9,8 +9,8 @@ if (global.GamePhase == "Menu"){
 			global.OfferedWeapon = "";
 			global.CurrentWeapon = "Starter";
 			global.PauseMenu = false;
-			global.CurrentBoss = 0;
-			global.GamePhase = "Fight";
+			global.CurrentBoss = 1;
+			global.GamePhase = "Boss Intro";
 			room_goto_next();
 	}
 }

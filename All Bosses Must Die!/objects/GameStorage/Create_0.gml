@@ -13,7 +13,8 @@ global.SettingsCalled = false;
 
 //Boss Specific Variables
 global.BossesBeaten = 1;
-global.CurrentBoss = 0;
+global.CurrentBoss = 1;
+global.TutBossBeaten = false;
 
 //reward variables
 global.OfferedWeapon = "";
@@ -30,3 +31,5 @@ global.PU_BulletSpeedUp = 0;
 #macro RES_W 1500
 #macro RES_H 900
 display_set_gui_size(RES_W,RES_H);
+
+randomize();

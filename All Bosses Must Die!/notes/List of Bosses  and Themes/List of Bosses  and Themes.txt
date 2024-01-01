@@ -1,6 +1,28 @@
 
 *possibly try to make a boss parent class to add in base behavior but also to make the children detectable by spawner
 
+*Possible idea is to create 5 different random zones that have each have a different end boss or to make themed zones with random bosses
 
-Shredder - large Sawblade projectiles with a lunge forward attach
+
+Mini Bosses:
+Shredder - large Sawblade projectiles with a lunge forward attach - *in progress
+
+Bones - A bone throwing skeleton with small boomerang bone attacks
+
+The King's Guardian - a easier version of the king with less movement and more spear thrusting
+
+
+
+
+
+
+
+
+Mega Bosses:
+
+Lord of Spikes - causes large spikes to appear / creates spike projectiles
+
+The King - A large sword weilding king guy with sword slash attacks and sword projectiles
+
+Lord Chronos - a 2 stage boss fight where once he dies the first time he rewinds time and heals up to full before getting stronger
 

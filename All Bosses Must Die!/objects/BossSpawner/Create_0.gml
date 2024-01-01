@@ -3,7 +3,8 @@
 
 MiniBoss_Hp = 10;
 Boss_Hp = 10;
-
+TotalBosses = 6;
+BossSelected = false;
 global.Boss_Health = 10;
 
 

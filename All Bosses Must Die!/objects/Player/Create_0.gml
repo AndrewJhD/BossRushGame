@@ -1,6 +1,6 @@
 /// @description Creation of Players
 // You can write your code in this editor
-
+show_debug_message(sprite_index);
 global.PHealth = 5;
 hascontrol = true;
 firingdelay = 0;
