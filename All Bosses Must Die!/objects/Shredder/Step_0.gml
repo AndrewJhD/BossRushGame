@@ -16,39 +16,35 @@ if(global.PauseMenu == false){
 			
 			switch (randomAttack)
 			{
-			    case 0:
+			    case 0: //summon the saw shooters in each corner letting them fire twice
 					currentAttack = 0;
-					//summon the saw shooters in each corner letting them fire twice
+					
 					
 					
 					break;
-			    case 1:
+			    case 1: //summon saws horizontally and make them move down the screen
 			        currentAttack = 1;
 					
 					
 					
 					break;
-				case 2:
-				
-					//summon saws vertically and make them move across the screen
-					
-					
+				case 2: //summon saws vertically and make them move across the screen
 					currentAttack = 2;
 					
 					
+					
 					break;
-				case 3:
+				case 3: //change sprite and lunge straight forward and go off the screen then return back from the top of the screen
+				
 					currentAttack = 3;
 					
-					//change sprite and lunge straight forward and go off the screen then return back from the top of the screen
 					
 					break;
-				case 4:
-					// shoot out 4 diagonal saw blades at the player
+				case 4: // shoot out 4 diagonal saw blades at the player
 					currentAttack = 4;
 					
 					break;
-				default:
+				default: 
 					//show_debug_message("An error with shredder has occured");
 					currentAttack = 0;
 					break;

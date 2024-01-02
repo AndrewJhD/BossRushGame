@@ -18,15 +18,15 @@ if(global.GamePhase == "Boss Intro"){
 			break;
 
 	    case 1:
-			var this = instance_create_layer(RES_W/2,RES_H * 0.10,"Boss", Bones);
+			this = instance_create_layer(RES_W/2,RES_H * 0.10,"Boss", Bones);
 			break;
 			
 		case 2:
-	        var this = instance_create_layer(RES_W/2,RES_H * 0.10,"Boss", TheKing);
+	        this = instance_create_layer(RES_W/2,RES_H * 0.10,"Boss", TheKing);
 			break;
 			
 		case 3:
-	        var this = instance_create_layer(RES_W/2,RES_H * 0.10,"Boss", TheLordOfSpikes);;
+	        this = instance_create_layer(RES_W/2,RES_H * 0.10,"Boss", TheLordOfSpikes);
 			break;
 		
 		default:

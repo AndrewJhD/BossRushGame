@@ -28,6 +28,7 @@ global.PU_BulletSpeedUp = 0;
 
 
 //display macro / settings Variables
+global.GameSpeed = 60;
 #macro RES_W 1500
 #macro RES_H 900
 display_set_gui_size(RES_W,RES_H);

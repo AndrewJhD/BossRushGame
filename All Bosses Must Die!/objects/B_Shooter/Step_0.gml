@@ -6,7 +6,7 @@ if (firing_delay < 0)
 		firing_delay = 60;
 		with(instance_create_layer(x,y,"Enemy_Projectiles",B_Projectile))
 		{
-			
+			B_Projectile.firedirection = 4;
 		}
 	}
 
@@ -17,7 +17,7 @@ if(moving_left){
 		moving_left = false;
 	}
 	else{
-		x -= 2;
+		//x -= 2;
 	}
 }
 else{
@@ -25,6 +25,6 @@ else{
 		moving_left = true
 	}
 	else{
-		x += 2;
+		//x += 2;
 	}
 }
