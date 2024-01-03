@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sShredderIdlePH1",
-    "path": "sprites/sShredderIdlePH1/sShredderIdlePH1.yy",
+    "name": "sShredderIdle",
+    "path": "sprites/sShredderIdle/sShredderIdle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

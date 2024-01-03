@@ -1,16 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "B_Shooter",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "ProjectileWall",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Projectiles",
-    "path": "folders/Objects/Projectiles.yy",
+    "name": "Trigger Walls",
+    "path": "folders/Objects/Trigger Walls.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,11 +24,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
-    "name": "ShooterPlaceholder",
-    "path": "sprites/ShooterPlaceholder/ShooterPlaceholder.yy",
+    "name": "sProjectileWall",
+    "path": "sprites/sProjectileWall/sProjectileWall.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

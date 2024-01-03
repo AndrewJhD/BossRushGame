@@ -12,8 +12,8 @@ global.PauseMenu = false;
 global.SettingsCalled = false;
 
 //Boss Specific Variables
-global.BossesBeaten = 1;
-global.CurrentBoss = 1;
+global.BossesBeaten = 0;
+global.CurrentBoss = 0;
 global.TutBossBeaten = false;
 
 //reward variables

@@ -4,10 +4,9 @@ if(global.PauseMenu == false){
 	
 	if(global.GamePhase == "Fight"){
 		if global.Boss_Health <= 0{
-			show_debug_message("Boss Destroyed");
+			//show_debug_message("Boss Destroyed");
 			global.BossesBeaten++;
 			global.GamePhase = "Reward";
-			global.TutBossBeaten = true;
 			instance_destroy();	
 		}
 	}

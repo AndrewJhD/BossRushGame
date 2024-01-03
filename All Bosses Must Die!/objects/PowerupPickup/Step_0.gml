@@ -5,7 +5,7 @@ if(global.GamePhase != "Reward"){
 	instance_destroy();
 }
 if (mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id)){
-	switch ( global.OfferedPoweru)
+	switch (global.OfferedPowerup)
 	{
 	    case "Damage Up":
 	        global.PU_DmgUp++;

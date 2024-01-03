@@ -20,7 +20,7 @@ if(global.PauseMenu == false){
 		if global.PHealth > 0 {
 			if keyboard_check(ord("A"))
 			{
-				if place_meeting(x - MoveSpeed , y , Wall){
+				if place_meeting(x - MoveSpeed , y , PlayerWall){
 					x = x;
 				}
 				else
@@ -31,7 +31,7 @@ if(global.PauseMenu == false){
 	
 			if keyboard_check(ord("D"))
 			{
-			    if place_meeting(x + MoveSpeed , y , Wall){
+			    if place_meeting(x + MoveSpeed , y , PlayerWall){
 					x = x;
 				}
 				else{
@@ -41,7 +41,7 @@ if(global.PauseMenu == false){
 	
 			if keyboard_check(ord("W"))
 			{
-				if place_meeting(x, y - MoveSpeed, Wall){
+				if place_meeting(x, y - MoveSpeed, PlayerWall){
 					y = y;
 				}
 				else{
@@ -51,7 +51,7 @@ if(global.PauseMenu == false){
 	
 			if keyboard_check(ord("S"))
 			{
-				if place_meeting(x, y + MoveSpeed, Wall){
+				if place_meeting(x, y + MoveSpeed, PlayerWall){
 					y = y
 				}
 				else{

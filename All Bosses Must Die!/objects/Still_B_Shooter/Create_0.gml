@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 firing_delay = 0;
-//firedirection = 0;
+firedirection = "TopLeft";
 moving_left = false;
 
 

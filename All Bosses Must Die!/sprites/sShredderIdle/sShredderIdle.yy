@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sTheLOSIdle1",
+  "name": "sShredderIdle",
   "bbox_bottom": 199,
   "bbox_left": 0,
   "bbox_right": 199,
@@ -25,14 +25,14 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "TheLordofSSprites",
-    "path": "folders/Sprites/Bosses/TheLordofSSprites.yy",
+    "name": "ShredderSprites",
+    "path": "folders/Sprites/Bosses/ShredderSprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sTheLOSIdle1",
+    "name": "sShredderIdle",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3cc75dbb-2266-400e-8644-4aaf5e09e167","path":"sprites/sTheLOSIdle1/sTheLOSIdle1.yy",},},},"Disabled":false,"id":"748ec05b-0b9a-456e-9ddd-4e3a26857c68","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3cc75dbb-2266-400e-8644-4aaf5e09e167","path":"sprites/sShredderIdle/sShredderIdle.yy",},},},"Disabled":false,"id":"4fb6da27-aaa4-4cb2-b3ad-8ba439f47c5d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

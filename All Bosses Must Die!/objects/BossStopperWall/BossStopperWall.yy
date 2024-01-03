@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Wall",
-  "eventList": [],
+  "name": "BossStopperWall",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Shredder","path":"objects/Shredder/Shredder.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "GameGui",
-    "path": "folders/Objects/GameGui.yy",
+    "name": "Trigger Walls",
+    "path": "folders/Objects/Trigger Walls.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -24,10 +26,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "sInvisWall",
-    "path": "sprites/sInvisWall/sInvisWall.yy",
+    "name": "sStopperWall",
+    "path": "sprites/sStopperWall/sStopperWall.yy",
   },
   "spriteMaskId": null,
   "visible": true,

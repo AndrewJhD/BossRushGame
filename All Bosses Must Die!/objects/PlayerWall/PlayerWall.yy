@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "AfterBossText",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-  ],
+  "name": "PlayerWall",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "RewardMenu",
-    "path": "folders/Objects/RewardMenu.yy",
+    "name": "Trigger Walls",
+    "path": "folders/Objects/Trigger Walls.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +24,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
-  "spriteId": null,
+  "solid": true,
+  "spriteId": {
+    "name": "sPlayerWall",
+    "path": "sprites/sPlayerWall/sPlayerWall.yy",
+  },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

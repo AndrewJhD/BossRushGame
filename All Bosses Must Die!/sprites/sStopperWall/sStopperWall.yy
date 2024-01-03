@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sShredderReturnPH1",
-  "bbox_bottom": 149,
+  "name": "sStopperWall",
+  "bbox_bottom": 63,
   "bbox_left": 0,
-  "bbox_right": 149,
+  "bbox_right": 63,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3cc75dbb-2266-400e-8644-4aaf5e09e167",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"69bef3dd-1d5b-4938-b98a-eca717bcedbc",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 150,
+  "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9cfbd99c-219c-49c1-9eab-99a59f9572f7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"60f4588d-a17a-425f-9e4c-d5897057ccad","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "ShredderSprites",
-    "path": "folders/Sprites/Bosses/ShredderSprites.yy",
+    "name": "TriggerWalls",
+    "path": "folders/Sprites/TriggerWalls.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sShredderReturnPH1",
+    "name": "sStopperWall",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3cc75dbb-2266-400e-8644-4aaf5e09e167","path":"sprites/sShredderReturnPH1/sShredderReturnPH1.yy",},},},"Disabled":false,"id":"a5013aad-47f8-4d74-b9b4-e81eb866d5af","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"69bef3dd-1d5b-4938-b98a-eca717bcedbc","path":"sprites/sStopperWall/sStopperWall.yy",},},},"Disabled":false,"id":"ef4be578-48b8-40a4-ba63-74adb284f211","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 150,
+  "width": 64,
 }
