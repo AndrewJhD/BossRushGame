@@ -1,22 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "B_Projectile",
+  "name": "Corner2Shooter",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Projectiles and Shooters",
-    "path": "folders/Objects/Projectiles and Shooters.yy",
+    "name": "Projectile Shooters",
+    "path": "folders/Objects/Projectiles and Shooters/Projectile Shooters.yy",
   },
-  "parentObjectId": {
-    "name": "ProjectilesParent",
-    "path": "objects/ProjectilesParent/ProjectilesParent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -33,9 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sB_Projectile",
-    "path": "sprites/sB_Projectile/sB_Projectile.yy",
+    "name": "sDiagonalShooter",
+    "path": "sprites/sDiagonalShooter/sDiagonalShooter.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "B_Projectile",
+  "name": "Corner4Projectile",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Projectiles and Shooters",
-    "path": "folders/Objects/Projectiles and Shooters.yy",
+    "name": "Shooter Projectiles",
+    "path": "folders/Objects/Projectiles and Shooters/Shooter Projectiles.yy",
   },
   "parentObjectId": {
     "name": "ProjectilesParent",

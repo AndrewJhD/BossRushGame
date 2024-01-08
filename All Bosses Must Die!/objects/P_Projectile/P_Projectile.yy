@@ -15,8 +15,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Projectiles",
-    "path": "folders/Objects/Projectiles.yy",
+    "name": "Projectiles and Shooters",
+    "path": "folders/Objects/Projectiles and Shooters.yy",
   },
   "parentObjectId": {
     "name": "ProjectilesParent",

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "ShooterPlaceholder",
+  "name": "SVerticleShooter",
   "bbox_bottom": 63,
   "bbox_left": 0,
   "bbox_right": 63,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6a7f360b-af3c-4ea9-82b2-2371b4623eff",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ffb9bd07-35ab-4462-946a-a3ec94041555",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ce12e3f4-b0e7-44e2-a1dd-46ab2fa47e08","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b3e69c31-d83c-4a47-baed-9ed008d61c04","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Projectiles",
-    "path": "folders/Sprites/Projectiles.yy",
+    "name": "ProjectileShooters",
+    "path": "folders/Sprites/Projectiles/ProjectileShooters.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "ShooterPlaceholder",
+    "name": "SVerticleShooter",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6a7f360b-af3c-4ea9-82b2-2371b4623eff","path":"sprites/ShooterPlaceholder/ShooterPlaceholder.yy",},},},"Disabled":false,"id":"e10734f9-3888-4c66-893a-fe787b9f7ba6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ffb9bd07-35ab-4462-946a-a3ec94041555","path":"sprites/SVerticleShooter/SVerticleShooter.yy",},},},"Disabled":false,"id":"fcf99293-81f7-49e7-a20d-a1ddc302f3cd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

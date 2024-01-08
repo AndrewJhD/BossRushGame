@@ -1,18 +1,22 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Still_B_Shooter",
+  "name": "HorizontalProjectile",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Projectiles",
-    "path": "folders/Objects/Projectiles.yy",
+    "name": "Shooter Projectiles",
+    "path": "folders/Objects/Projectiles and Shooters/Shooter Projectiles.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "ProjectilesParent",
+    "path": "objects/ProjectilesParent/ProjectilesParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,9 +33,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "ShooterPlaceholder",
-    "path": "sprites/ShooterPlaceholder/ShooterPlaceholder.yy",
+    "name": "sSHHorizontalBlade",
+    "path": "sprites/sSHHorizontalBlade/sSHHorizontalBlade.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

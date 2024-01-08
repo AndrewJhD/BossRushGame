@@ -1,22 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "SHHorizontalSaws",
+  "name": "VerticleShooter",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Shredder",
-    "path": "folders/Objects/Projectiles/Shredder.yy",
+    "name": "Projectile Shooters",
+    "path": "folders/Objects/Projectiles and Shooters/Projectile Shooters.yy",
   },
-  "parentObjectId": {
-    "name": "ProjectilesParent",
-    "path": "objects/ProjectilesParent/ProjectilesParent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -33,9 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sSHHorizontalBlade",
-    "path": "sprites/sSHHorizontalBlade/sSHHorizontalBlade.yy",
+    "name": "SVerticleShooter",
+    "path": "sprites/SVerticleShooter/SVerticleShooter.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
